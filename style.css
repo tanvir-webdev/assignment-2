@@ -28,6 +28,12 @@
     color: #01ACFD;
 }
 
+.description{
+    color: #808080;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
 .primary-btn{
     background-color: #FEA301;
     color: #fff;
@@ -37,6 +43,16 @@
     cursor: pointer;
     font-size: 1.25rem;
     font-weight: 500;
+}
+
+.slide-btn{
+    color: white;
+    height: 60px;
+    width: 60px;
+    background-color: #FEA301;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
 }
 
 /* navbar styles start */
@@ -127,6 +143,83 @@ hr{
     width: 100%;
 }
 /* hero section styles end */
+
+
+
+/* standard curriculum section styles start */
+.curriculum{
+    max-width: 1160px;
+    margin: 0 auto;
+    background-image: url(assets/bg.png);
+    background-size:  auto 100%;
+}
+
+
+.curriculum h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 80px auto;
+    padding-top: 60px;
+}
+
+.curriculum-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 28px;
+    margin: 80px auto;
+}
+
+.curriculum-container h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 33px auto;
+}
+
+.curriculum-item{
+    padding: 52px 40px;
+    border-radius: 19px;
+    background-color: white;
+}
+
+.kinder{
+    background-image: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+    border: 1px solid #DEF5FF;
+}
+
+.kinder-readmore{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #94c8ff;
+}
+
+.elementary{
+    background-image: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
+    border: 1px solid #FFF4DC;
+}
+
+.elementary-readmore{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #F0AA00;
+}
+
+.middle{
+    background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
+    border: 1px solid #F2E8FF;
+}
+
+.middle-readmore{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #8700FF;
+}
+
+.arrow-btn{
+    text-align: center;
+}
+/* standard curriculum section styles end */
 
 
 
