@@ -384,8 +384,9 @@ hr{
 /* ------------responsive media query------------- */
 @media screen and (max-width:576px){
     header,
-    main,
-    .footer-container{
+    .curriculum,
+    .footer-container,
+    .box-container{
         margin-left: 16px;
         margin-right: 16px;
     }
@@ -395,7 +396,7 @@ hr{
     .nav-menu,
     .contact-btn,
     .arrow-btn,
-    .our-stories{
+    #box-1{
         display: none;
     }
 
@@ -419,6 +420,11 @@ hr{
 
     .curriculum-container{
         grid-template-columns: 1fr;
+    }
+
+    .box-container{
+        grid-template-columns: repeat(2, 1fr);
+
     }
 
     .footer-container{
