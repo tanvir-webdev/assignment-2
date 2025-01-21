@@ -97,6 +97,37 @@ hr{
 
 
 /* hero section styles start */
+.hero-section{
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.hero-content{
+    max-width: 640px;
+}
+
+.hero-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero-text{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+.enroll-btn{
+    padding: 10px 47px;
+    background-color: #111;
+}
+
+.hero-image img{
+    width: 100%;
+}
+/* hero section styles end */
+
 
 
 /* responsive media query */
@@ -120,5 +151,14 @@ hr{
 
     hr{
         display: block;
+        border: 1px solid #FEA301;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+
+    .hero-content{
+        text-align: center;
     }
 }
