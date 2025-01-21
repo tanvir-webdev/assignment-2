@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.quicksand-regular {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-secendary {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared styles */
+  .display-flex{
+    display: flex;
+    align-items: center;
+}
+
+.primary-color{
+    color: #FEA301;
+}
+
+.secondary-color{
+    color: #01ACFD;
+}
+
+.primary-btn{
+    background-color: #FEA301;
+    color: #fff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* navbar styles start */
+.navbar{
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.brand-logo{
+    width: 100%;
+    height: 100%;
+}
+
+.brand-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 32px;
+}
+  
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+#home{
+    font-weight: 700;
+}
+
+#about{
+    color: #05D4DF;
+}
+
+#admission{
+    color: #5D58EF;
+}
+
+.bar-icon{
+    display: none;
+    font-size: 1.5rem;
+
+}
+/* navbar styles end */
+
+
+
+hr{
+    display: none;
+}
+
+
+
+/* hero section styles start */
+
+
+/* responsive media query */
+@media screen and (max-width:576px){
+    body{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+
+    .brand-name,
+    .nav-menu,
+    .contact-btn{
+        display: none;
+    }
+
+    .bar-icon{
+        display: block;
+    }
+
+
+    hr{
+        display: block;
+    }
+}
