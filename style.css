@@ -223,15 +223,14 @@ hr{
 
 .arrow-btn{
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 
 
 
 /* --------our stories section styles start-------- */
 .our-stories{
-    max-width: 1160px;
-    margin: 0 auto;
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 
 .box img{
@@ -243,6 +242,8 @@ hr{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 19px;
+    max-width: 1160px;
+    margin: 0 auto;
 }
 
 .box{
@@ -250,12 +251,43 @@ hr{
     background-color: #fff;
 }
 
+.box h5{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(149, 178, 38);
+    border-radius: 48px;
+    padding: 15px 19px;
+    position: relative;
+    left: 38px;
+    top:-30px;
+}
+
+.box h4{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 23px 38px 33px 38px;
+}
+
 #box-1{
     grid-row: span 2;
     grid-column: span 2;
 }
 
-.box1-time{
+#box-1 h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 60px 38px 51px 38px;
+}
+
+#box-1 p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 40px 38px 34px 38px;
+}
+
+#box-1 h5{
     display: inline-block;
     font-size: 0.9rem;
     font-weight: 500;
@@ -264,8 +296,21 @@ hr{
     border-radius: 48px;
     padding: 15px 19px;
     position: relative;
-    left: 4%;
-    top:-50px;
+    left: 38px;
+    top:-30px;
+}
+
+#box-3 h5{
+    background-color: rgb(93, 88, 240);
+}
+
+.stories-btn{
+    text-align: center;
+}
+
+.view-all{
+    background-color: #111;
+    margin: 80px 0 60px 0;
 }
 
 
@@ -332,6 +377,7 @@ hr{
 
 .icons{
     gap: 10px;
+    margin-right: 30px;
 }
 
 
