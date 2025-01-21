@@ -14,7 +14,7 @@
     font-style: normal;
 }
 
-/* shared styles */
+/* -------------shared styles start------------- */
   .display-flex{
     display: flex;
     align-items: center;
@@ -45,6 +45,14 @@
     font-weight: 500;
 }
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 80px auto;
+    padding-top: 60px;
+}
+
 .slide-btn{
     color: white;
     height: 60px;
@@ -54,8 +62,11 @@
     border: 0;
     cursor: pointer;
 }
+/* -------------shared styles end------------- */
 
-/* navbar styles start */
+
+
+/* --------------navbar styles start------------- */
 .navbar{
     max-width: 1160px;
     margin: 0 auto;
@@ -102,7 +113,7 @@
     font-size: 1.5rem;
 
 }
-/* navbar styles end */
+/* --------------navbar styles end------------- */
 
 
 
@@ -112,7 +123,7 @@ hr{
 
 
 
-/* hero section styles start */
+/* -----------hero section styles start----------- */
 .hero-section{
     max-width: 1160px;
     margin: 0 auto;
@@ -142,25 +153,16 @@ hr{
 .hero-image img{
     width: 100%;
 }
-/* hero section styles end */
+/* -----------hero section styles end----------- */
 
 
 
-/* standard curriculum section styles start */
+/* ---standard curriculum section styles start--- */
 .curriculum{
     max-width: 1160px;
     margin: 0 auto;
     background-image: url(assets/bg.png);
-    background-size:  auto 100%;
-}
-
-
-.curriculum h2{
-    font-size: 2.8rem;
-    font-weight: 700;
-    text-align: center;
-    margin: 0 auto 80px auto;
-    padding-top: 60px;
+    background-size:  100% 100%;
 }
 
 .curriculum-container{
@@ -219,11 +221,55 @@ hr{
 .arrow-btn{
     text-align: center;
 }
-/* standard curriculum section styles end */
+/* ---standard curriculum section styles end--- */
 
 
 
-/* responsive media query */
+/* --------our stories section styles start-------- */
+.our-stories{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19px;
+}
+
+.box{
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+#box-1{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.box1-time{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3CD8E8;
+    border-radius: 48px;
+    padding: 15px 19px;
+    position: relative;
+    left: 4%;
+    top:-50px;
+}
+
+/* --------our stories section styles end-------- */
+
+
+
+/* ------------responsive media query------------- */
 @media screen and (max-width:576px){
     body{
         margin-left: 16px;
@@ -233,7 +279,8 @@ hr{
 
     .brand-name,
     .nav-menu,
-    .contact-btn{
+    .contact-btn,
+    .arrow-btn{
         display: none;
     }
 
@@ -253,5 +300,9 @@ hr{
 
     .hero-content{
         text-align: center;
+    }
+
+    .curriculum-container{
+        grid-template-columns: 1fr;
     }
 }
