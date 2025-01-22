@@ -124,6 +124,11 @@ hr{
     display: none;
 }
 
+.marquee{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
 
 
 /* -----------hero section styles start----------- */
@@ -253,14 +258,14 @@ hr{
 
 .box h5{
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 500;
     color: #fff;
     background-color: rgb(149, 178, 38);
     border-radius: 48px;
     padding: 15px 19px;
     position: relative;
-    left: 38px;
+    left: 30px;
     top:-30px;
 }
 
@@ -296,7 +301,7 @@ hr{
     border-radius: 48px;
     padding: 15px 19px;
     position: relative;
-    left: 38px;
+    left: 30px;
     top:-30px;
 }
 
@@ -424,7 +429,11 @@ hr{
 
     .box-container{
         grid-template-columns: repeat(2, 1fr);
+        gap: 2%;
+    }
 
+    .box h5{
+        left: 10px;
     }
 
     .footer-container{
