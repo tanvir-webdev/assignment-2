@@ -429,11 +429,16 @@ hr{
 
     .box-container{
         grid-template-columns: repeat(2, 1fr);
-        gap: 2%;
+        gap: 3%;
+        margin: 0 16px;
     }
 
     .box h5{
         left: 10px;
+    }
+
+    .box h4{
+        margin: 5px 22px 30px 22px;
     }
 
     .footer-container{
