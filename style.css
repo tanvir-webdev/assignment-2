@@ -48,6 +48,11 @@
     cursor: pointer;
     font-size: 1.25rem;
     font-weight: 500;
+    transition: 0.2s;
+}
+
+.primary-btn:hover{
+    background-color: #5d00af;
 }
 
 .section-title{
@@ -66,6 +71,11 @@
     border-radius: 50%;
     border: 0;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.slide-btn:hover{
+    background-color: #fe5e01;
 }
 
 
@@ -99,12 +109,20 @@
     font-weight: 500;
 }
 
+.nav-menu li a:hover{
+    color: #111;
+}
+
 
 #home{
     font-weight: 700;
 }
 
 #about{
+    color: #05D4DF;
+}
+
+#facilities{
     color: #05D4DF;
 }
 
@@ -127,6 +145,7 @@ hr{
 .marquee{
     max-width: 1160px;
     margin: 0 auto;
+    color: #5D58EF;
 }
 
 
@@ -202,6 +221,7 @@ hr{
     font-size: 0.9rem;
     font-weight: 700;
     color: #94c8ff;
+    margin-top: 33px;
 }
 
 .elementary{
@@ -213,6 +233,7 @@ hr{
     font-size: 0.9rem;
     font-weight: 700;
     color: #F0AA00;
+    margin-top: 33px;
 }
 
 .middle{
@@ -224,12 +245,14 @@ hr{
     font-size: 0.9rem;
     font-weight: 700;
     color: #8700FF;
+    margin-top: 33px;
 }
 
 .arrow-btn{
     text-align: center;
     padding-bottom: 70px;
 }
+
 
 
 
@@ -319,7 +342,7 @@ hr{
 }
 
 
-/* --------footer secton style start-------- */
+/* --------footer section style start-------- */
 .footer{
     background-color: #01ACFD;
 }
